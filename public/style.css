@@ -1,0 +1,53 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+header{
+    padding: 5px;
+    outline: 0.3px dashed rgb(9, 4, 53);
+    background-color: rgb(229, 233, 248);
+    width: 100%;
+    position: fixed;
+    backdrop-filter: drop;
+}
+
+header >nav{
+    text-align: end;
+    text-transform: none;
+    margin-right: 5%;
+}
+
+a{
+    text-decoration: none;
+    padding: 7px;
+    text-align: end;
+}
+  
+header >nav >a:hover, a:active {
+    color: white;
+    background-color: rgb(8, 34, 185);
+    outline: 0.5px dashed rgb(5, 4, 0);
+  }
+
+
+footer{
+    padding: 3px;
+    outline: 0.3px dashed rgb(9, 4, 53);
+    background-color: rgb(229, 233, 248);
+    text-align: center;
+}
+
+footer >nav{
+    text-transform: none;
+    display: inline-flex;
+    
+}
+footer >nav >a >img{
+    max-width: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
