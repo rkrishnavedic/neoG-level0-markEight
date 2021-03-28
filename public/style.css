@@ -33,6 +33,10 @@ header >nav >a:hover, a:active {
 
 
 footer{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
     padding: 3px;
     outline: 0.3px dashed rgb(9, 4, 53);
     background-color: rgb(229, 233, 248);
@@ -45,7 +49,7 @@ footer >nav{
     
 }
 footer >nav >a >img{
-    max-width: 25px;
+    max-width: 30px;
     padding-left: 7px;
     padding-right: 7px;
 }
